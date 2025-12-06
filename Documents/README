@@ -1,0 +1,129 @@
+# OrangeHRM Demo – Manual & Automation Testing Project
+
+This repository presents a complete Quality Assurance project for the **OrangeHRM Demo website**, including manual testing documentation, defect reporting, requirements traceability, and Cypress UI automation.  
+It reflects a full QA workflow aligned with real industry practices.
+
+----------------------------------------------------------------
+
+## 📁 Repository Structure
+
+/Documents
+├── README.md # Project overview (this file)
+├── TestPlan_OrangeHRMdemo.pdf # Full Test Plan (Manual + Automation)
+├── OrangeHRM Demo Project.xlsx # Test Cases + Bug Report + RTM
+
+/OrangeHRM
+├── cypress/
+│ ├── e2e/ # Cypress automated test scripts
+│ ├── fixtures/ # Test data (if needed)
+│ ├── support/ # Custom commands & helpers
+│ ├── videos/ # Recorded test execution videos
+├── OrangeHR_report.txt # Cypress execution report
+├── cypress.config.js # Cypress configuration settings
+├── package.json # Node dependencies & scripts
+├── package-lock.json
+
+
+--------------------------------------------------------------------
+
+## 📘 Project Overview
+
+This project involves testing the **OrangeHRM Demo website**, a publicly accessible HR management system used for HR operations such as employee management, user administration, and personal information management.
+
+The goal of this project is to:
+
+- Validate core HR workflows  
+- Identify functional defects  
+- Develop Cypress automation for stable flows  
+- Build full QA documentation (Test Plan, Test Cases, Bug Reports, RTM)  
+
+Both **manual testing** and **automation testing** are included to simulate a real QA environment.
+
+-------------------------------------------------------------------------
+
+## 🧪 Manual Testing Documents
+
+All manual testing artifacts are stored inside:
+
+➡️ `/Documents/OrangeHRM Demo Project.xlsx`
+
+### This file includes:
+- **Test Cases** (positive & negative scenarios)  
+- **Bug Reports** (detailed, reproducible defects)  
+- **Requirements Traceability Matrix (RTM)**  
+  - Requirement → Test Case → Status → Bug Relationship  
+
+These deliverables demonstrate structured test design and complete coverage.
+
+-----------------------------------------------
+
+## 📄 Test Plan
+
+The Test Plan defines:
+
+- Project scope  
+- Testing objectives  
+- In-scope & out-of-scope modules  
+- Test approach (manual + automation)  
+- Test schedule  
+- Entry/exit criteria  
+- Risks & assumptions  
+- Test environment  
+
+➡️ Located at: `/Documents/TestPlan_OrangeHRMdemo.pdf`
+
+----------------------------------------
+
+## 🤖 Cypress Automation
+
+Automation scripts are located in the **OrangeHRM** folder.
+
+### Automated Scenarios Include:
+- Login with valid credentials  
+- Login validation with invalid input  
+- Add new user  
+- Search for a user  
+- Delete user  
+- Partial regression flows  
+
+These tests follow Cypress best practices and use a clean, modular structure.
+
+----------------------------------------------
+
+## ▶️ Running the Automation Tests
+
+### 1. Install dependencies
+```bash
+npm install
+
+1. Open Cypress (GUI mode)
+npx cypress open
+2. Run all tests in headless mode
+npx cypress run
+--------------------------------------------------
+
+🎯 Project Purpose & Learning Outcomes
+
+This project demonstrates my ability to:
+
+- Plan and document a full testing cycle
+
+- Design detailed manual test cases
+
+- Identify and report defects professionally
+
+- Build and structure UI automation using Cypress
+
+- Maintain test traceability through RTM
+
+- Work with demo systems as if they were production environments
+
+This repository is part of my QA portfolio and showcases both manual and automation testing capabilities.
+--------------------------------------------------------------------
+
+👩‍💻Author
+
+Thekra AlSaywed
+Software Tester
+thekra.alsaywed@gmail.com
+
