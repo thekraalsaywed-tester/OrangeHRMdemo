@@ -8,9 +8,9 @@ It reflects a full QA workflow aligned with real industry practices.
 ## 📁 Repository Structure
 
 /Documents
+├── OrangeHRM Demo Project.xlsx # Test Cases + Bug Report + RTM
 ├── README.md # Project overview (this file)
 ├── TestPlan_OrangeHRMdemo.pdf # Full Test Plan (Manual + Automation)
-├── OrangeHRM Demo Project.xlsx # Test Cases + Bug Report + RTM
 
 /OrangeHRM
 ├── cypress/
